@@ -1,6 +1,6 @@
-name: plugin-b
-description: Depends on plugin-c and template-base
-display-name: plugin-b
+name: plugin-c
+description: Depends on base-template and plugin a
+display-name: plugin-c
 picture: plugin.png
 category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility:
@@ -16,4 +16,4 @@ types:
   - app
 requirements:
   - dev-stack/base-template
-  - dev-stack/plugin-c
+  - dev-stack/plugin-a
