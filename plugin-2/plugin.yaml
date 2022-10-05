@@ -1,5 +1,5 @@
 name: plugin-2
-description: Describe your plugin explaining its purpose
+description: Plugin with requirement for plugin-1
 display-name: plugin-2
 picture: plugin.png
 category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
